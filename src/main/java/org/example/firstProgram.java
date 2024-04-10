@@ -42,7 +42,7 @@ public class firstProgram {
         String operator=scn.next();
         operator = operator.trim();
         int numResponse;
-        if(operator== "+")
+        if(operator.equals( "+"))
         {
             numResponse=num1+num2;
             System.out.println("Response of " +num1+" "+operator+" "+num2+" = "+numResponse);
