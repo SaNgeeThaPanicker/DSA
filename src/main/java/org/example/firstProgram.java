@@ -47,15 +47,15 @@ public class firstProgram {
             numResponse=num1+num2;
             System.out.println("Response of " +num1+" "+operator+" "+num2+" = "+numResponse);
 
-        } else if (operator=="-") {
+        } else if (operator.equals("-")) {
             numResponse=num1-num2;
             System.out.println("Response of " +num1+" "+operator+" "+num2+" = "+numResponse);
         }
-        else if (operator=="*") {
+        else if (operator.equals("*")) {
             numResponse = num1 * num2;
             System.out.println("Response of " +num1+" "+operator+" "+num2+" = "+numResponse);
         }
-        else if (operator=="/") {
+        else if (operator.equals("/")) {
             numResponse=num1/num2;
             System.out.println("Response of " +num1+" "+operator+" "+num2+" = "+numResponse);
         }
