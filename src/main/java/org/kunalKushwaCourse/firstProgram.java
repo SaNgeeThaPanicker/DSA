@@ -75,13 +75,41 @@ public class firstProgram {
 //        System.out.println("The largest number is = "+num2);
 
 //Input currency in rupees and output in USD.
-        System.out.println("Enter the currency");
-        float currency=scn.nextFloat();
-        double convertedCurrency = currency*0.01200;
-        System.out.println("Currency converted from rupees to USD == "+convertedCurrency);
+//        System.out.println("Enter the currency");
+//        float currency=scn.nextFloat();
+//        double convertedCurrency = currency*0.01200;
+//        System.out.println("Currency converted from rupees to USD == "+convertedCurrency);
 
 //To calculate Fibonacci Series up to n numbers.
+//        int n1=0,n2=1,sum=0;
+//        System.out.println("Enter the range upto which you want the fibonacci series: ");
+//        int range= scn.nextInt();
+//        System.out.println(n1+" ");//0
+//        System.out.println(n2+" ");//1
+//        for(int i=1;i<range;i++)//2
+//        {
+//            sum=n1+n2;//1+2=3
+//            System.out.println(sum+" ");//2
+//            n1=n2;//n1=1
+//            n2=sum;//n2=2
+//        }
 //To find out whether the given String is Palindrome or not.
+        System.out.println("enter the number: ");
+//        int num=scn.nextInt();
+//        int originalNum=num;
+//        int rev=0;
+//        while (num!=0)
+//        {
+//            rev=(rev*10)+ num%10;
+//            num=num/10;
+//        }
+//        if(rev==originalNum)
+//        {
+//            System.out.println("Its a palindrome number "+originalNum);
+//        }
+//        else {
+//            System.out.println("Its not a palindrome number "+originalNum);
+//        }
 //To find Armstrong Number between two given number.
 
     }
