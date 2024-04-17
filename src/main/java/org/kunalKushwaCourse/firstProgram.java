@@ -1,5 +1,4 @@
-package org.example;
-
+package org.kunalKushwaCourse;
 import java.util.*;
 
 
