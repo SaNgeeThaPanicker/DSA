@@ -1,4 +1,5 @@
 package org.kunalKushwaCourse;
+import java.sql.Array;
 import java.util.*;
 
 
@@ -85,15 +86,16 @@ public class firstProgram {
 //        int range= scn.nextInt();
 //        System.out.println(n1+" ");//0
 //        System.out.println(n2+" ");//1
-//        for(int i=1;i<range;i++)//2
+//        for(int i=1;i<=range-2;i++)//2
 //        {
 //            sum=n1+n2;//1+2=3
 //            System.out.println(sum+" ");//2
 //            n1=n2;//n1=1
 //            n2=sum;//n2=2
 //        }
+
 //To find out whether the given String is Palindrome or not.
-        System.out.println("enter the number: ");
+//        System.out.println("enter the number: ");
 //        int num=scn.nextInt();
 //        int originalNum=num;
 //        int rev=0;
@@ -112,6 +114,25 @@ public class firstProgram {
 
 //To find Armstrong Number between two given number.
 
+         System.out.println("enter the number: ");
+        int num=scn.nextInt();
+        int rev=0;
+        int sum=0;
+        int org=num;
+        while (num!=0)
+        {
+            rev=(num%10);
+            num=num/10;
+            int cube=rev*rev*rev;
+            sum=sum+cube;
+        }
+        if(org==sum)
+        {
+            System.out.println("Armstrong");
+        }
+        else{
+            System.out.println("Not a armstrong");
+        }
     }
 
 }
